@@ -6,8 +6,14 @@ I'm a [Debian Developer](https://wiki.debian.org/DebianDeveloper) since 2021-07-
 
 # Stuff I do at Debian
 
-- I work with the [go-team](https://go-team.pages.debian.net), where I package, maintain and fixes Go based librairies and application.
-- I'm currently working on getting [Traefik](https://traefik.io/traefik) in the archive ([ITP](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=983289)).
+- I work with the [go-team](https://go-team.pages.debian.net), where I package, maintain and fixes [Go](https://golang.org) based librairies and application.
+- I'm currently working on getting [Traefik](https://traefik.io/traefik) in the archive [[ITP]](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=983289).
+
+## Useful links
+
+- List of the [packages I maintain](https://qa.debian.org/developer.php?login=Alo%C3%AFs+Micard).
+- Traefik packaging [progress](traefik.html).
+- My personal [website](https://www.creekorful.org) / [blog](https://blog.creekorful.org).
 
 ## Contact me
 

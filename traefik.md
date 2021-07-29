@@ -15,19 +15,19 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 </tr>
 </thead>
 <tbody>
-<tr><td>github.com/BurntSushi/toml</td><td>v0.3.1</td><td>No</td><td></td></tr>
-<tr><td>github.com/ExpediaDotCom/haystack-client-go</td><td>v0.0.0-20190315171017-e7edbdf53a61</td><td>No</td><td></td></tr>
-<tr><td>github.com/Masterminds/semver</td><td>v1.4.2 </td><td>No</td><td></td></tr>
-<tr><td>github.com/Masterminds/sprig</td><td>v2.22.0+incompatible</td><td>No</td><td></td></tr>
-<tr><td>github.com/Microsoft/hcsshim</td><td>v0.8.7 </td><td>No</td><td></td></tr>
-<tr><td>github.com/Shopify/sarama</td><td>v1.23.1 </td><td>No</td><td></td></tr>
-<tr><td>github.com/abbot/go-http-auth</td><td>v0.0.0-00010101000000-000000000000</td><td>No</td><td></td></tr>
+<tr><td>github.com/BurntSushi/toml</td><td>v0.3.1</td><td>Yes (0.3.1)</td><td><a href="https://tracker.debian.org/pkg/golang-toml">Tracker</a></td></tr>
+<tr><td>github.com/ExpediaDotCom/haystack-client-go</td><td>v0.0.0-20190315171017-e7edbdf53a61</td><td>No</td><td><a href="https://bugs.debian.org/991637">ITP</a></td></tr>
+<tr><td>github.com/Masterminds/semver</td><td>v1.4.2</td><td>Yes (1.4.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-masterminds-semver-dev">Tracker</a></td></tr>
+<tr><td>github.com/Masterminds/sprig</td><td>v2.22.0+incompatible</td><td>Yes - exp (3.2.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-masterminds-sprig">Tracker</a></td></tr>
+<tr><td>github.com/Microsoft/hcsshim</td><td>v0.8.7</td><td>No</td><td></td></tr>
+<tr><td>github.com/Shopify/sarama</td><td>v1.23.1</td><td>Yes (1.22.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-shopify-sarama">Tracker</a></td></tr>
+<tr><td>github.com/abbot/go-http-auth</td><td>v0.0.0-00010101000000-000000000000</td><td>Yes (0.4.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-abbot-go-http-auth">Tracker</a></td></tr>
 <tr><td>github.com/abronan/valkeyrie</td><td>v0.0.0-20200127174252-ef4277a138cd</td><td>No</td><td></td></tr>
-<tr><td>github.com/aws/aws-sdk-go</td><td>v1.30.20</td><td>No</td><td></td></tr>
-<tr><td>github.com/cenkalti/backoff/v4</td><td>v4.0.2</td><td>No</td><td></td></tr>
-<tr><td>github.com/containerd/containerd</td><td>v1.3.2 </td><td>No</td><td></td></tr>
+<tr><td>github.com/aws/aws-sdk-go</td><td>v1.30.20</td><td>Yes (1.36.33)</td><td><a href="https://tracker.debian.org/pkg/golang-github-aws-aws-sdk-go">Tracker</a></td></tr>
+<tr><td>github.com/cenkalti/backoff/v4</td><td>v4.0.2</td><td>Yes - exp (4.1.0)</td><td></td></tr>
+<tr><td>github.com/containerd/containerd</td><td>v1.3.2 </td><td>Yes (1.4.5)</td><td><a href="https://tracker.debian.org/pkg/containerd">Tracker</a></td></tr>
 <tr><td>github.com/containous/alice</td><td>v0.0.0-20181107144136-d83ebdd94cbd</td><td>No</td><td></td></tr>
-<tr><td>github.com/coreos/go-systemd</td><td>v0.0.0-20191104093116-d3cd4ed1dbcf</td><td>No</td><td></td></tr>
+<tr><td>github.com/coreos/go-systemd</td><td>v0.0.0-20191104093116-d3cd4ed1dbcf</td><td>Yes (22.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-coreos-go-systemd">Tracker</a></td></tr>
 <tr><td>github.com/davecgh/go-spew</td><td>v1.1.1</td><td>No</td><td></td></tr>
 <tr><td>github.com/docker/cli</td><td>v0.0.0-20200221155518-740919cc7fc0</td><td>No</td><td></td></tr>
 <tr><td>github.com/docker/distribution</td><td>v2.7.1+incompatible </td><td>No</td><td></td></tr>

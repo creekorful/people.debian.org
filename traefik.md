@@ -90,7 +90,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/unrolled/render</td><td>v1.0.2</td><td>No</td><td></td></tr>
 <tr><td>github.com/unrolled/secure</td><td>v1.0.7</td><td>No</td><td></td></tr>
 <tr><td>github.com/vdemeester/shakers</td><td>v0.1.0</td><td>Yes (0.0~git20160210.0.24d7f1d)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vdemeester-shakers">Tracker</a></td></tr>
-<tr><td>github.com/vulcand/oxy</td><td>v1.1.0</td><td>No</td><td></td></tr>
+<tr><td>github.com/vulcand/oxy</td><td>v1.1.0</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/991675">ITP</a></td></tr>
 <tr><td>github.com/vulcand/predicate</td><td>v1.1.0</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991658">ITP</a></td></tr>
 <tr><td>go.elastic.co/apm</td><td>v1.7.0</td><td>No</td><td></td></tr>
 <tr><td>go.elastic.co/apm/module/apmot</td><td>v1.7.0</td><td>No</td><td></td></tr>

@@ -44,13 +44,13 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/flynn/go-shlex</td><td>v0.0.0-20150515145356-3f9db97f8568 </td><td>No</td><td></td></tr>
 <tr><td>github.com/gambol99/go-marathon</td><td>v0.0.0-20180614232016-99a156b96fb2</td><td>No</td><td></td></tr>
 <tr><td>github.com/go-acme/lego/v4</td><td>v4.2.0</td><td>No</td><td></td></tr>
-<tr><td>github.com/go-check/check</td><td>v0.0.0-00010101000000-000000000000</td><td>No</td><td></td></tr>
+<tr><td>github.com/go-check/check</td><td>v0.0.0-00010101000000-000000000000</td><td>Yes (0.0+git20200902.038fdea)</td><td><a href="https://tracker.debian.org/pkg/golang-check.v1">Tracker</a></td></tr>
 <tr><td>github.com/go-kit/kit</td><td>v0.10.1-0.20200915143503-439c4d2ed3ea</td><td>Yes (0.6.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-go-kit-kit">Tracker</a></td></tr>
 <tr><td>github.com/golang/protobuf</td><td>v1.4.2</td><td>Yes (1.3.4)</td><td><a href="https://tracker.debian.org/pkg/golang-goprotobuf">Tracker</a></td></tr>
 <tr><td>github.com/google/go-github/v28</td><td>v28.1.1</td><td>No</td><td></td></tr>
 <tr><td>github.com/gorilla/mux</td><td>v1.7.3</td><td>Yes (1.7.4)</td><td><a href="https://tracker.debian.org/pkg/golang-github-gorilla-mux">Tracker</a></td></tr>
 <tr><td>github.com/gorilla/websocket</td><td>v1.4.2</td><td>Yes (1.4.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-gorilla-websocket">Tracker</a></td></tr>
-<tr><td>github.com/hashicorp/consul/api</td><td>v1.3.0</td><td>No</td><td></td></tr>
+<tr><td>github.com/hashicorp/consul/api</td><td>v1.3.0</td><td>Yes (1.8.7)</td><td><a href="https://tracker.debian.org/pkg/consul">Tracker</a></td></tr>
 <tr><td>github.com/hashicorp/go-multierror</td><td>v1.0.0</td><td>Yes (1.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-hashicorp-go-multierror">Tracker</a></td></tr>
 <tr><td>github.com/hashicorp/go-version</td><td>v1.2.0</td><td>Yes (1.2.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-hashicorp-go-version">Tracker</a></td></tr>
 <tr><td>github.com/influxdata/influxdb1-client</td><td>v0.0.0-20191209144304-8bf82d3c094d</td><td>No</td><td></td></tr>
@@ -84,7 +84,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/tinylib/msgp</td><td>v1.0.2</td><td>Yes (1.0.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-tinylib-msgp">Tracker</a></td></tr>
 <tr><td>github.com/traefik/gziphandler</td><td>v1.1.2-0.20210212101304-175e0fad6888</td><td>No</td><td></td></tr>
 <tr><td>github.com/traefik/paerser</td><td>v0.1.1</td><td>No</td><td></td></tr>
-<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>No (IN PROGRESS)</td><td><a href="https://bugs.debian.org/991757">ITP</a></td></tr>
+<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/991757">ITP</a></td></tr>
 <tr><td>github.com/uber/jaeger-client-go</td><td>v2.25.0+incompatible</td><td>No</td><td></td></tr>
 <tr><td>github.com/uber/jaeger-lib</td><td>v2.2.0+incompatible</td><td>No</td><td></td></tr>
 <tr><td>github.com/unrolled/render</td><td>v1.0.2</td><td>No (IN PROGRESS)</td><td><a href="https://bugs.debian.org/991760">ITP</a></td></tr>

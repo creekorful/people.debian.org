@@ -84,10 +84,10 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/tinylib/msgp</td><td>v1.0.2</td><td>Yes (1.0.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-tinylib-msgp">Tracker</a></td></tr>
 <tr><td>github.com/traefik/gziphandler</td><td>v1.1.2-0.20210212101304-175e0fad6888</td><td>No</td><td></td></tr>
 <tr><td>github.com/traefik/paerser</td><td>v0.1.1</td><td>No</td><td></td></tr>
-<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>No (IN PROGRESS)</td><td></td><a href="https://bugs.debian.org/991757">ITP</a></tr>
+<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>No (IN PROGRESS)</td><td><a href="https://bugs.debian.org/991757">ITP</a></td></tr>
 <tr><td>github.com/uber/jaeger-client-go</td><td>v2.25.0+incompatible</td><td>No</td><td></td></tr>
 <tr><td>github.com/uber/jaeger-lib</td><td>v2.2.0+incompatible</td><td>No</td><td></td></tr>
-<tr><td>github.com/unrolled/render</td><td>v1.0.2</td><td>No</td><td></td></tr>
+<tr><td>github.com/unrolled/render</td><td>v1.0.2</td><td>No (IN PROGRESS)</td><td><a href="https://bugs.debian.org/991760">ITP</a></td></tr>
 <tr><td>github.com/unrolled/secure</td><td>v1.0.7</td><td>No</td><td></td></tr>
 <tr><td>github.com/vdemeester/shakers</td><td>v0.1.0</td><td>Yes (0.0~git20160210.0.24d7f1d)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vdemeester-shakers">Tracker</a></td></tr>
 <tr><td>github.com/vulcand/oxy</td><td>v1.1.0</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/991675">ITP</a></td></tr>

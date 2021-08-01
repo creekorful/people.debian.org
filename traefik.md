@@ -32,11 +32,11 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/docker/cli</td><td>v0.0.0-20200221155518-740919cc7fc0</td><td>No</td><td></td></tr>
 <tr><td>github.com/docker/distribution</td><td>v2.7.1+incompatible </td><td>No</td><td></td></tr>
 <tr><td>github.com/docker/docker</td><td>v0.7.3-0.20190327010347-be7ac8be2ae0</td><td>No</td><td></td></tr>
-<tr><td>github.com/docker/docker-credential-helpers</td><td>v0.6.3 </td><td>No</td><td></td></tr>
-<tr><td>github.com/docker/go-connections</td><td>v0.4.0</td><td>No</td><td></td></tr>
-<tr><td>github.com/docker/go-metrics</td><td>v0.0.0-20181218153428-b84716841b82 </td><td>No</td><td></td></tr>
+<tr><td>github.com/docker/docker-credential-helpers</td><td>v0.6.3 </td><td>Yes (0.6.3)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-docker-credential-helpers">Tracker</a></td></tr>
+<tr><td>github.com/docker/go-connections</td><td>v0.4.0</td><td>Yes (0.4.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-go-connections">Tracker</a></td></tr>
+<tr><td>github.com/docker/go-metrics</td><td>v0.0.0-20181218153428-b84716841b82</td><td>Yes (0.0.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-go-metrics">Tracker</a></td></tr>
 <tr><td>github.com/docker/libcompose</td><td>v0.0.0-20190805081528-eac9fe1b8b03 </td><td>No</td><td></td></tr>
-<tr><td>github.com/docker/libtrust</td><td>v0.0.0-20160708172513-aabc10ec26b7 </td><td>No</td><td></td></tr>
+<tr><td>github.com/docker/libtrust</td><td>v0.0.0-20160708172513-aabc10ec26b7</td><td>Yes (0.0~git20150526.0.9cbd2a1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-libtrust">Tracker</a></td></tr>
 <tr><td>github.com/donovanhide/eventsource</td><td>v0.0.0-20170630084216-b8f31a59085e </td><td>No</td><td></td></tr>
 <tr><td>github.com/eapache/channels</td><td>v1.1.0</td><td>Yes (1.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-gopkg-eapache-channels.v1">Tracker</a></td></tr>
 <tr><td>github.com/elazarl/go-bindata-assetfs</td><td>v1.0.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-elazarl-go-bindata-assetfs">Tracker</a></td></tr>
@@ -59,7 +59,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/libkermit/docker</td><td>v0.0.0-20171122101128-e6674d32b807</td><td>No</td><td></td></tr>
 <tr><td>github.com/libkermit/docker-check</td><td>v0.0.0-20171122104347-1113af38e591</td><td>No</td><td></td></tr>
 <tr><td>github.com/magiconair/properties</td><td>v1.8.1</td><td>Yes (1.8.4)</td><td><a href="https://tracker.debian.org/pkg/golang-github-magiconair-properties">Tracker</a></td></tr>
-<tr><td>github.com/mailgun/ttlmap</td><td>v0.0.0-20170619185759-c1c17f74874f</td><td>No</td><td></td></tr>
+<tr><td>github.com/mailgun/ttlmap</td><td>v0.0.0-20170619185759-c1c17f74874f</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991697">ITP</a></td></tr>
 <tr><td>github.com/miekg/dns</td><td>v1.1.31</td><td>Yes (1.1.35)</td><td><a href="https://tracker.debian.org/pkg/golang-github-miekg-dns">Tracker</a></td></tr>
 <tr><td>github.com/mitchellh/copystructure</td><td>v1.0.0</td><td>Yes (0.0~git20161013.0.5af94ae)</td><td><a href="https://tracker.debian.org/pkg/golang-github-mitchellh-copystructure">Tracker</a></td></tr>
 <tr><td>github.com/mitchellh/hashstructure</td><td>v1.0.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-mitchellh-hashstructure">Tracker</a></td></tr>
@@ -67,16 +67,16 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/morikuni/aec</td><td>v0.0.0-20170113033406-39771216ff4c</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-morikuni-aec">Tracker</a></td></tr>
 <tr><td>github.com/opencontainers/go-digest</td><td>v1.0.0-rc1</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-opencontainers-go-digest">Tracker</a></td></tr>
 <tr><td>github.com/opencontainers/image-spec</td><td>v1.0.1</td><td>Yes (1.0.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-opencontainers-image-spec">Tracker</a></td></tr>
-<tr><td>github.com/opencontainers/runc</td><td>v1.0.0-rc10</td><td>No</td><td></td></tr>
-<tr><td>github.com/opentracing/opentracing-go</td><td>v1.1.0</td><td>No</td><td></td></tr>
+<tr><td>github.com/opencontainers/runc</td><td>v1.0.0-rc10</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/runc">Tracker</a></td></tr>
+<tr><td>github.com/opentracing/opentracing-go</td><td>v1.1.0</td><td>Yes (1.2.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-opentracing-opentracing-go">Tracker</a></td></tr>
 <tr><td>github.com/openzipkin-contrib/zipkin-go-opentracing</td><td>v0.4.5</td><td>No</td><td></td></tr>
 <tr><td>github.com/openzipkin/zipkin-go</td><td>v0.2.2</td><td>Yes (0.1.5)</td><td><a href="https://tracker.debian.org/pkg/golang-github-openzipkin-zipkin-go">Tracker</a></td></tr>
 <tr><td>github.com/patrickmn/go-cache</td><td>v2.1.0+incompatible</td><td>Yes (2.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-patrickmn-go-cache">Tracker</a></td></tr>
 <tr><td>github.com/philhofer/fwd</td><td>v1.0.0</td><td>Yes (1.1.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-philhofer-fwd">Tracker</a></td></tr>
 <tr><td>github.com/pires/go-proxyproto</td><td>v0.3.1</td><td>Yes (0.4.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-pires-go-proxyproto">Tracker</a></td></tr>
 <tr><td>github.com/pmezard/go-difflib</td><td>v1.0.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-pmezard-go-difflib">Tracker</a></td></tr>
-<tr><td>github.com/prometheus/client_golang</td><td>v1.3.0</td><td>No</td><td></td></tr>
-<tr><td>github.com/prometheus/client_model</td><td>v0.2.0</td><td>No</td><td></td></tr>
+<tr><td>github.com/prometheus/client_golang</td><td>v1.3.0</td><td>Yes (1.9.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-prometheus-client-golang">Tracker</a></td></tr>
+<tr><td>github.com/prometheus/client_model</td><td>v0.2.0</td><td>Yes (0.2.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-prometheus-client-model">Tracker</a></td></tr>
 <tr><td>github.com/rancher/go-rancher-metadata</td><td>v0.0.0-20200311180630-7f4c936a06ac</td><td>No</td><td></td></tr>
 <tr><td>github.com/sirupsen/logrus</td><td>v1.7.0</td><td>Yes (1.7.0)</td><td><a href="https://tracker.debian.org/pkg/golang-logrus">Tracker</a></td></tr>
 <tr><td>github.com/stretchr/testify</td><td>v1.7.0</td><td>Yes (1.6.1)</td><td><a href="https://tracker.debian.org/pkg/golang-testify">Tracker</a></td></tr>

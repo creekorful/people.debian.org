@@ -16,7 +16,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 </thead>
 <tbody>
 <tr><td>github.com/BurntSushi/toml</td><td>v0.3.1</td><td>Yes (0.3.1)</td><td><a href="https://tracker.debian.org/pkg/golang-toml">Tracker</a></td></tr>
-<tr><td>github.com/ExpediaDotCom/haystack-client-go</td><td>v0.0.0-20190315171017-e7edbdf53a61</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/991637">ITP</a></td></tr>
+<tr><td>github.com/ExpediaDotCom/haystack-client-go</td><td>v0.0.0-20190315171017-e7edbdf53a61</td><td>Yes (0.2.3)</td><td><a href="https://tracker.debian.org/pkg/golang-github-expediadotcom-haystack-client-go">Tracker</a></td></tr>
 <tr><td>github.com/Masterminds/semver</td><td>v1.4.2</td><td>Yes (1.4.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-masterminds-semver-dev">Tracker</a></td></tr>
 <tr><td>github.com/Masterminds/sprig</td><td>v2.22.0+incompatible</td><td>Yes - exp (3.2.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-masterminds-sprig">Tracker</a></td></tr>
 <tr><td>github.com/Microsoft/hcsshim</td><td>v0.8.7</td><td>No</td><td></td></tr>
@@ -59,7 +59,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/libkermit/docker</td><td>v0.0.0-20171122101128-e6674d32b807</td><td>No</td><td></td></tr>
 <tr><td>github.com/libkermit/docker-check</td><td>v0.0.0-20171122104347-1113af38e591</td><td>No</td><td></td></tr>
 <tr><td>github.com/magiconair/properties</td><td>v1.8.1</td><td>Yes (1.8.4)</td><td><a href="https://tracker.debian.org/pkg/golang-github-magiconair-properties">Tracker</a></td></tr>
-<tr><td>github.com/mailgun/ttlmap</td><td>v0.0.0-20170619185759-c1c17f74874f</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991697">ITP</a></td></tr>
+<tr><td>github.com/mailgun/ttlmap</td><td>v0.0.0-20170619185759-c1c17f74874f</td><td>Yes (0.0~git20170619.c1c17f7)</td><td><a href="https://tracker.debian.org/pkg/golang-github-mailgun-ttlmap">Tracker</a></td></tr>
 <tr><td>github.com/miekg/dns</td><td>v1.1.31</td><td>Yes (1.1.35)</td><td><a href="https://tracker.debian.org/pkg/golang-github-miekg-dns">Tracker</a></td></tr>
 <tr><td>github.com/mitchellh/copystructure</td><td>v1.0.0</td><td>Yes (0.0~git20161013.0.5af94ae)</td><td><a href="https://tracker.debian.org/pkg/golang-github-mitchellh-copystructure">Tracker</a></td></tr>
 <tr><td>github.com/mitchellh/hashstructure</td><td>v1.0.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-mitchellh-hashstructure">Tracker</a></td></tr>
@@ -84,14 +84,14 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/tinylib/msgp</td><td>v1.0.2</td><td>Yes (1.0.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-tinylib-msgp">Tracker</a></td></tr>
 <tr><td>github.com/traefik/gziphandler</td><td>v1.1.2-0.20210212101304-175e0fad6888</td><td>No</td><td></td></tr>
 <tr><td>github.com/traefik/paerser</td><td>v0.1.1</td><td>No</td><td></td></tr>
-<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/991757">ITP</a></td></tr>
+<tr><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>Yes (0.9.21)</td><td><a href="https://tracker.debian.org/pkg/golang-github-traefik-yaegi">Tracker</a></td></tr>
 <tr><td>github.com/uber/jaeger-client-go</td><td>v2.25.0+incompatible</td><td>No</td><td></td></tr>
 <tr><td>github.com/uber/jaeger-lib</td><td>v2.2.0+incompatible</td><td>No</td><td></td></tr>
 <tr><td>github.com/unrolled/render</td><td>v1.0.2</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/991760">ITP</a></td></tr>
 <tr><td>github.com/unrolled/secure</td><td>v1.0.7</td><td>No (IN NEW)</td><td><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991763">ITP</a></td></tr>
 <tr><td>github.com/vdemeester/shakers</td><td>v0.1.0</td><td>Yes (0.0~git20160210.0.24d7f1d)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vdemeester-shakers">Tracker</a></td></tr>
-<tr><td>github.com/vulcand/oxy</td><td>v1.1.0</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/991675">ITP</a></td></tr>
-<tr><td>github.com/vulcand/predicate</td><td>v1.1.0</td><td>No (in NEW)</td><td><a href="https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=991658">ITP</a></td></tr>
+<tr><td>github.com/vulcand/oxy</td><td>v1.1.0</td><td>Yes (1.3.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vulcand-oxy">Tracker</a></td></tr>
+<tr><td>github.com/vulcand/predicate</td><td>v1.1.0</td><td>Yes (1.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vulcand-predicate">Tracker</a></td></tr>
 <tr><td>go.elastic.co/apm</td><td>v1.7.0</td><td>No</td><td></td></tr>
 <tr><td>go.elastic.co/apm/module/apmot</td><td>v1.7.0</td><td>No</td><td></td></tr>
 <tr><td>golang.org/x/mod</td><td>v0.3.0</td><td>Yes (0.4.1)</td><td><a href="https://tracker.debian.org/pkg/golang-golang-x-mod">Tracker</a></td></tr>

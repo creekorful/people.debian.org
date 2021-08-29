@@ -37,17 +37,17 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>github.com/docker/go-metrics</td><td>v0.0.0-20181218153428-b84716841b82</td><td>Yes (0.0.1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-go-metrics">Tracker</a></td></tr>
 <tr><td>github.com/docker/libcompose</td><td>v0.0.0-20190805081528-eac9fe1b8b03 </td><td>No</td><td></td></tr>
 <tr><td>github.com/docker/libtrust</td><td>v0.0.0-20160708172513-aabc10ec26b7</td><td>Yes (0.0~git20150526.0.9cbd2a1)</td><td><a href="https://tracker.debian.org/pkg/golang-github-docker-libtrust">Tracker</a></td></tr>
-<tr><td>github.com/donovanhide/eventsource</td><td>v0.0.0-20170630084216-b8f31a59085e </td><td>No</td><td></td></tr>
+<tr><td>github.com/donovanhide/eventsource</td><td>v0.0.0-20170630084216-b8f31a59085e</td><td>No (waiting for upstream to add license. <a href="https://github.com/donovanhide/eventsource/pull/46">see</a>)</td><td><a href="https://bugs.debian.org/993240">ITP</a></td></tr>
 <tr><td>github.com/eapache/channels</td><td>v1.1.0</td><td>Yes (1.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-gopkg-eapache-channels.v1">Tracker</a></td></tr>
 <tr><td>github.com/elazarl/go-bindata-assetfs</td><td>v1.0.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-elazarl-go-bindata-assetfs">Tracker</a></td></tr>
 <tr><td>github.com/fatih/structs</td><td>v1.1.0</td><td>Yes (1.0.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-fatih-structs">Tracker</a></td></tr>
-<tr><td>github.com/flynn/go-shlex</td><td>v0.0.0-20150515145356-3f9db97f8568 </td><td>No</td><td></td></tr>
-<tr><td>github.com/gambol99/go-marathon</td><td>v0.0.0-20180614232016-99a156b96fb2</td><td>No</td><td></td></tr>
-<tr><td>github.com/go-acme/lego/v4</td><td>v4.2.0</td><td>No</td><td></td></tr>
+<tr><td>github.com/flynn/go-shlex</td><td>v0.0.0-20150515145356-3f9db97f8568</td><td>No use golang-github-google-shlex instead</td><td></td></tr>
+<tr><td>github.com/gambol99/go-marathon</td><td>v0.0.0-20180614232016-99a156b96fb2</td><td>No (depends on github.com/donovanhide/eventsource)</td><td><a href="https://bugs.debian.org/993242">ITP</a></td></tr>
+<tr><td>github.com/go-acme/lego/v4</td><td>v4.2.0</td><td>Yes (3.2.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-xenolf-lego">Tracker</a></td></tr>
 <tr><td>github.com/go-check/check</td><td>v0.0.0-00010101000000-000000000000</td><td>Yes (0.0+git20200902.038fdea)</td><td><a href="https://tracker.debian.org/pkg/golang-check.v1">Tracker</a></td></tr>
 <tr><td>github.com/go-kit/kit</td><td>v0.10.1-0.20200915143503-439c4d2ed3ea</td><td>Yes (0.6.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-go-kit-kit">Tracker</a></td></tr>
 <tr><td>github.com/golang/protobuf</td><td>v1.4.2</td><td>Yes (1.3.4)</td><td><a href="https://tracker.debian.org/pkg/golang-goprotobuf">Tracker</a></td></tr>
-<tr><td>github.com/google/go-github/v28</td><td>v28.1.1</td><td>No</td><td></td></tr>
+<tr><td>github.com/google/go-github/v28</td><td>v28.1.1</td><td>Yes (38.1.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-google-go-github">Tracker</a></td></tr>
 <tr><td>github.com/gorilla/mux</td><td>v1.7.3</td><td>Yes (1.7.4)</td><td><a href="https://tracker.debian.org/pkg/golang-github-gorilla-mux">Tracker</a></td></tr>
 <tr><td>github.com/gorilla/websocket</td><td>v1.4.2</td><td>Yes (1.4.2)</td><td><a href="https://tracker.debian.org/pkg/golang-github-gorilla-websocket">Tracker</a></td></tr>
 <tr><td>github.com/hashicorp/consul/api</td><td>v1.3.0</td><td>Yes (1.8.7)</td><td><a href="https://tracker.debian.org/pkg/consul">Tracker</a></td></tr>
@@ -99,7 +99,7 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr><td>golang.org/x/time</td><td>v0.0.0-20200630173020-3af7569d3a1e</td><td>Yes (0.0+git20200630.3af7569)</td><td><a href="https://tracker.debian.org/pkg/golang-golang-x-time">Tracker</a></td></tr>
 <tr><td>google.golang.org/grpc</td><td>v1.27.1</td><td>Yes (1.27.1)</td><td><a href="https://tracker.debian.org/pkg/golang-google-grpc">Tracker</a></td></tr>
 <tr><td>gopkg.in/DataDog/dd-trace-go.v1</td><td>v1.19.0</td><td>No</td><td></td></tr>
-<tr><td>gopkg.in/fsnotify.v1</td><td>v1.4.7</td><td>No</td><td></td></tr>
+<tr><td>gopkg.in/fsnotify.v1</td><td>v1.4.7</td><td>Yes (1.4.9)</td><td><a href="https://tracker.debian.org/pkg/golang-fsnotify">Tracker</a></td></tr>
 <tr><td>gopkg.in/jcmturner/goidentity.v3</td><td>v3.0.0 </td><td>No</td><td></td></tr>
 <tr><td>gopkg.in/yaml.v3</td><td>v3.0.0-20200615113413-eeeca48fe776</td><td>No</td><td></td></tr>
 <tr><td>k8s.io/api</td><td>v0.19.2</td><td>No</td><td></td></tr>

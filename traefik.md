@@ -97,8 +97,8 @@ I will try to keep updated my progress with the Traefik (v2.4.3) packaging.
 <tr class="packaged"><td>github.com/traefik/gziphandler</td><td>v1.1.2-0.20210212101304-175e0fad6888</td><td>Yes (packaged as golang-github-nytimes-gziphandler)</td><td><a href="https://tracker.debian.org/pkg/golang-github-nytimes-gziphandler">Tracker</a></td></tr>
 <tr class="not"><td>github.com/traefik/paerser</td><td>v0.1.1</td><td>No</td><td><a href="https://bugs.debian.org/991751">ITP</a></td></tr>
 <tr class="packaged"><td>github.com/traefik/yaegi</td><td>v0.9.8</td><td>Yes (0.9.21)</td><td><a href="https://tracker.debian.org/pkg/golang-github-traefik-yaegi">Tracker</a></td></tr>
-<tr class="not"><td>github.com/uber/jaeger-client-go</td><td>v2.25.0+incompatible</td><td>No</td><td></td></tr>
-<tr class="not"><td>github.com/uber/jaeger-lib</td><td>v2.2.0+incompatible</td><td>No</td><td></td></tr>
+<tr class="not"><td>github.com/uber/jaeger-client-go</td><td>v2.25.0+incompatible</td><td>No (depends on github.com/uber/jaeger-lib)</td><td><a href="https://bugs.debian.org/994083">ITP</a></td></tr>
+<tr class="not"><td>github.com/uber/jaeger-lib</td><td>v2.2.0+incompatible</td><td>No. Depends on: <ul><li>github.com/uber-go/tally <a href="https://bugs.debian.org/994084">ITP</a></li><li>github.com/influxdata/influxdb1-client</li></ul></td><td><a href="https://bugs.debian.org/994082">ITP</a></td></tr>
 <tr class="packaged"><td>github.com/unrolled/render</td><td>v1.0.2</td><td>Yes (1.4.0)</td><td><a href="https://tracker.debian.org/pkg/golang-github-unrolled-render">Tracker</a></td></tr>
 <tr class="packaged"><td>github.com/unrolled/secure</td><td>v1.0.7</td><td>Yes (1.0.9)</td><td><a href="https://tracker.debian.org/pkg/golang-github-unrolled-secure">Tracker</a></td></tr>
 <tr class="not"><td>github.com/vdemeester/shakers</td><td>v0.1.0</td><td>No (RM'ed)</td><td><a href="https://tracker.debian.org/pkg/golang-github-vdemeester-shakers">Tracker</a></td></tr>
